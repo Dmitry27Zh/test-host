@@ -2,3 +2,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.wrp {
+  height: 300px;
+  background: no-repeat;
+}
+
+.wrp-1 {
+  background-image: url('../img/svg/easter-egg-modal-bg.svg');
+}
+
+.wrp-2 {
+  background-image: url('../img/svg/easter-egg-modal-bg-mobile.svg');
+}
