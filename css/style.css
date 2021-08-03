@@ -336,3 +336,13 @@ input:checked + .modal-tape-edit__interests-item .modal-tape-edit__interests-ite
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
 }
+
+.no-outline:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 40px;
+  background-color: red;
+}
