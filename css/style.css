@@ -4,11 +4,25 @@
   max-height: 100px;
   overflow: auto;
 
+  scrollbar-width: thin;
+  scrollbar-color: #222525 #e0e4e9;
   -webkit-overflow-scrolling: touch;
+}
+
+.scroll-el::-webkit-scrollbar-thumb:hover {
+  background: #222525;
+}
+
+.scroll-el::-webkit-scrollbar-track {
+  background: #e0e4e9;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 0 #f0f0f0;
 }
 
 .scroll-el::-webkit-scrollbar {
   -webkit-appearance: none;
+  width: 5px;
+  height: 5px;
 }
 
 .scroll-el::-webkit-scrollbar:vertical {
@@ -23,6 +37,8 @@
   background-color: rgba(0, 0, 0, .5);
   border-radius: 10px;
   border: 2px solid #ffffff;
+  background: #222525;
+  border-radius: 0;
 }
 
 .scroll-el::-webkit-scrollbar-track {
