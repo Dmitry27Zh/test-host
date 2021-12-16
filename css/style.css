@@ -1,12 +1,19 @@
+.wrp {
+  width: 100px;
+}
+
 .scroll-el {
   margin: 0 auto;
-  width: 100px;
   max-height: 100px;
   overflow: auto;
 
   scrollbar-width: thin;
   scrollbar-color: #222525 #e0e4e9;
   /* -webkit-overflow-scrolling: touch; */
+}
+
+.c {
+  border: 1px solid #000;
 }
 
 .scroll-el::-webkit-scrollbar-thumb:hover {
