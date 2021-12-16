@@ -3,7 +3,31 @@
   width: 100px;
   max-height: 100px;
   overflow: auto;
+
   -webkit-overflow-scrolling: touch;
+}
+
+.scroll-el::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.scroll-el::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.scroll-el::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+.scroll-el::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.scroll-el::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .el {
