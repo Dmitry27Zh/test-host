@@ -6,7 +6,7 @@
 
   scrollbar-width: thin;
   scrollbar-color: #222525 #e0e4e9;
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
 }
 
 .scroll-el::-webkit-scrollbar-thumb:hover {
